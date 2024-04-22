@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
         val car = Car()
         car.start()
 
-
+        val driver = Driver("jackson")
+        driver.showDetails()
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
