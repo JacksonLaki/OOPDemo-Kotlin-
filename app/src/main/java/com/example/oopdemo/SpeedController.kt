@@ -5,8 +5,10 @@ interface SpeedController {
    fun  accelerate()
    fun  decelerate()
 
-   fun getBrandId():String{
+   fun getBrandId():String {
 
        return "ABS1212"
    }
+
+
 }
