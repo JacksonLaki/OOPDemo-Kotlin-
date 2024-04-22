@@ -4,7 +4,7 @@ import android.util.Log
 
 class MyCar:Car(), SpeedController{
     override fun start() {
-     Log.i("MyTag","This is MyCar Starting...Bland id is ${getBlandId()}")
+     Log.i("MyTag","This is MyCar Starting...Bland Id is ${getBrandId()}")
     }
 
     override fun accelerate() {
