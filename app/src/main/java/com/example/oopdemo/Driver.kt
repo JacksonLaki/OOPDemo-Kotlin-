@@ -2,13 +2,15 @@ package com.example.oopdemo
 
 import android.util.Log
 
-class Driver(name:String) {
-    var driverName =""
+class Driver(name:String , credit:Int) {
+    private var driverName =""
+    private var totalCredit = 10
 
   init {
+      totalCredit+= credit
       driverName = name
   }
     fun showDetails(){
-        Log.i("MyTag","Name of the driver is $driverName")
+        Log.i("MyTag","Name of the driver is $driverName and $totalCredit")
     }
 }
