@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val car = Car()
+        car.maxSpeed = 150
         car.start()
 
         val driver = Driver("jackson")
