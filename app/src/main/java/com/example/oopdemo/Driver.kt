@@ -2,7 +2,9 @@ package com.example.oopdemo
 
 import android.util.Log
 
-class Driver(name:String , credit:Int) {
+open class Driver(name:String , credit:Int) {
+
+
     private var driverName =""
     private var totalCredit = 10
 

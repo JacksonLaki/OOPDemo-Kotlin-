@@ -19,6 +19,11 @@ class MainActivity : AppCompatActivity() {
         val driver = Driver("jackson", 20)
         driver.showDetails()
 
+        val myCar = MyCar()
+        myCar.maxSpeed = 190
+        myCar.start()
+
+
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
